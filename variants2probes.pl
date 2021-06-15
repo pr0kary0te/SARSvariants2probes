@@ -9,10 +9,10 @@ $left = ( ($length -1) /2)+1;
 
 
 #Clear out any pre-existing downloaded markers then get the latest variant info from the phe-genomics/variant_definitions GitHub 
-#`rm -rf variant_definitions-main`;
-#`wget https://github.com/phe-genomics/variant_definitions/archive/refs/heads/main.zip`;
-#`unzip main.zip`;
-#`rm main.zip`;
+`rm -rf variant_definitions-main`;
+`wget https://github.com/phe-genomics/variant_definitions/archive/refs/heads/main.zip`;
+`unzip main.zip`;
+`rm main.zip`;
 
 
 open(SUMMARY, ">variant_probes_summary.txt");
